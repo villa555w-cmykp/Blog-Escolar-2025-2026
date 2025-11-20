@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Escolar - Mi Centro Educativo</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    
+    <header>
+        <h1>Blog de Noticias Escolares</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <article class="destacada">
+            <h2>🎉 Gran Éxito en la Feria de Ciencias 2025</h2>
+            <p class="fecha">Publicado el 20 de noviembre de 2025</p>
+            <p>Este es un resumen de la noticia más importante del centro educativo. Los estudiantes de 4to año presentaron proyectos innovadores y se llevaron el primer lugar a nivel regional.</p>
+            <a href="noticia1.html">Leer más</a>
+        </article>
+        
+        <section id="noticias-recientes">
+            <h3>Otras Noticias</h3>
+            <article>
+                <h4>📚 Calendario de Exámenes Finales Publicado</h4>
+                <p>La secretaría ha publicado el horario definitivo para la última semana de exámenes. ¡A estudiar!</p>
+                <a href="noticia2.html">Continuar leyendo</a>
+            </article>
+            <article>
+                <h4>⚽ Torneo de Fútbol Interclase - ¡Resultados!</h4>
+                <p>El equipo de 2do "B" se alzó con la copa en un emocionante partido final contra 3ro "A".</p>
+                <a href="noticia3.html">Continuar leyendo</a>
+            </article>
+            </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog Escolar. Todos los derechos reservados.</p>
+        <p>Configurado en un servidor gratuito: **GitHub Pages**</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
